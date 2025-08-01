@@ -1,0 +1,37 @@
+Java 8 introduced significant features that revolutionized how developers write Java code, primarily by bringing functional programming paradigms to the language. Key features include:
+
+Lambda Expressions and Functional Interfaces:
+---------------------------------------------
+Lambda expressions provide a concise syntax for implementing functional interfaces (interfaces with a single abstract method), enabling more compact and readable code for tasks like event handling and collection processing.
+
+Stream API:
+-----------
+A powerful API for performing bulk data operations on collections, arrays, and other data sources. It supports functional-style operations like filtering, mapping, and reducing, allowing for efficient and expressive data manipulation.
+
+Default and Static Methods in Interfaces:
+-----------------------------------------
+Default methods allow adding new methods to interfaces without breaking existing implementations, promoting backward compatibility. Static methods in interfaces provide utility methods directly associated with the interface.
+
+Java Time API (Date and Time API):
+----------------------------------
+A modern, immutable, and thread-safe API for handling dates and times, addressing shortcomings of the older java.util.Date and java.util.Calendar classes. It includes classes like LocalDate, LocalTime, LocalDateTime, and ZonedDateTime.
+
+Optional Class:
+---------------
+A container object that may or may not contain a non-null value. It helps in handling potential null values more explicitly and safely, reducing the likelihood of NullPointerExceptions.
+
+forEach() method in Iterable interface:
+---------------------------------------
+Provides a convenient way to iterate over elements of collections, often used in conjunction with lambda expressions.
+
+Method References:
+------------------
+A shorthand for lambda expressions that simply call an existing method, improving code readability when the lambda expression's body is a single method call.
+
+Nashorn JavaScript Engine:
+--------------------------
+A JavaScript engine integrated into the JVM, allowing for the execution of JavaScript code within Java applications.
+
+Concurrency API Improvements:
+-----------------------------
+Enhancements to the java.util.concurrent package, including CompletableFuture for asynchronous programming.
