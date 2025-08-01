@@ -3,22 +3,46 @@ Java 8 introduced significant features that revolutionized how developers write 
 Lambda Expressions and Functional Interfaces:
 ---------------------------------------------
 Lambda expressions provide a concise syntax for implementing functional interfaces (interfaces with a single abstract method), enabling more compact and readable code for tasks like event handling and collection processing.
+Questions:
+---------
+-> Explain the concept of functional interfaces and their role with lambda expressions.
+-> Discuss the advantages of using lambda expressions over anonymous inner classes.
+-> Provide examples of using lambda expressions with various functional interfaces (e.g., Predicate, Consumer, Function, Supplier).
 
 Stream API:
 -----------
 A powerful API for performing bulk data operations on collections, arrays, and other data sources. It supports functional-style operations like filtering, mapping, and reducing, allowing for efficient and expressive data manipulation.
+Questions:
+----------
+-> Explain the benefits of using the Stream API for data processing.
+-> Differentiate between intermediate and terminal operations in streams.
+-> Discuss the differences between sequential and parallel streams and when to use each.
+-> Provide examples of common stream operations like filter, map, reduce, collect, sorted, distinct.
+-> Discuss performance considerations and potential pitfalls when using streams.
 
 Default and Static Methods in Interfaces:
 -----------------------------------------
 Default methods allow adding new methods to interfaces without breaking existing implementations, promoting backward compatibility. Static methods in interfaces provide utility methods directly associated with the interface.
+Questions:
+----------
+-> Explain the purpose and implications of default methods in interfaces.
+-> Discuss scenarios where default methods are useful, particularly for backward compatibility.
 
 Java Time API (Date and Time API):
 ----------------------------------
 A modern, immutable, and thread-safe API for handling dates and times, addressing shortcomings of the older java.util.Date and java.util.Calendar classes. It includes classes like LocalDate, LocalTime, LocalDateTime, and ZonedDateTime.
+Questions:
+----------
+-> Discuss the improvements and advantages of the new Date and Time API over the older java.util.Date and Calendar classes.
+-> Demonstrate usage of classes like LocalDate, LocalTime, LocalDateTime, ZonedDateTime, Instant, Period, and Duration.
 
 Optional Class:
 ---------------
 A container object that may or may not contain a non-null value. It helps in handling potential null values more explicitly and safely, reducing the likelihood of NullPointerExceptions.
+Questions:
+----------
+-> Explain the purpose of the Optional class and how it helps in handling null values.
+-> Demonstrate its usage with methods like isPresent(), orElse(), orElseGet(), map(), flatMap().
 
 forEach() method in Iterable interface:
 ---------------------------------------
@@ -35,3 +59,26 @@ A JavaScript engine integrated into the JVM, allowing for the execution of JavaS
 Concurrency API Improvements:
 -----------------------------
 Enhancements to the java.util.concurrent package, including CompletableFuture for asynchronous programming.
+Questions:
+----------
+-> Discuss how Java 8 features like CompletableFuture and parallel streams can be used for concurrent programming.
+-> Explain the Fork/Join framework and its relation to parallel streams.
+
+Functional Programming Principles:
+----------------------------------
+-> Discuss how Java 8 promotes functional programming paradigms.
+-> Explain concepts like immutability, pure functions, and higher-order functions in the context of Java 8.
+
+Refactoring Legacy Code:
+------------------------
+-> Discuss strategies for refactoring existing Java codebases to leverage Java 8 features.
+
+Performance Optimization:
+-------------------------
+-> Discuss how to optimize performance when using streams and other Java 8 features.
+-> Identify potential performance bottlenecks and how to address them.
+
+Real-world Scenarios and Problem Solving:
+-----------------------------------------
+-> Solve complex programming problems using Java 8 features, such as data aggregation, filtering, transformation, and statistical analysis on collections.
+-> Design and implement solutions that demonstrate a clear understanding of when and how to apply specific Java 8 constructs.
