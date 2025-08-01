@@ -16,9 +16,9 @@ public class CountingCharacters {
     }
 
     public static void main(String[] args) {
-        String s = "Hello";
+        String s = "Balaji";
         Map<Character, Long> freqMap = countCharacters(s);
-        System.out.println(freqMap); // {e=1, H=1, l=2, o=1}
+        System.out.println(freqMap); // {a=2, B=1, i=1, j=1, l=1}
     }
 
 }
