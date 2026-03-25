@@ -13,11 +13,9 @@ public class NthHighestNumber {
      * The boxed() method in Java Streams converts a primitive stream
      * (like IntStream, LongStream, or DoubleStream) into a stream of their corresponding wrapper class objects
      * (e.g., Stream<Integer>, Stream<Long>, Stream<Double>).
-     *
      * Arrays.stream(intArr):
      * This creates an IntStream from the int array intArr.
      * An IntStream is a specialized stream for primitive int values.
-     *
      * The boxed() method in this code converts the IntStream (a stream of primitive int values)
      * into a Stream<Integer> (a stream of Integer objects).
      */
