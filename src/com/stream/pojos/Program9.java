@@ -18,12 +18,6 @@ public class Program9 {
 
         List<Employee> employees = Arrays.asList(emp, emp2, emp3, emp4);
 
-        // average salary of male and female
-
-        Map<String, Double> collect = employees.stream()
-                .collect(Collectors.groupingBy(Employee::getGender, Collectors.averagingDouble(Employee::getSalary)));
-        System.out.println(collect);
-
         // total sum and average salary
         DoubleSummaryStatistics summaryStatistics = employees.stream()
                 .map(n -> n.getSalary())
