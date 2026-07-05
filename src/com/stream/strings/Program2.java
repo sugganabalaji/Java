@@ -19,6 +19,7 @@ public class Program2 {
 
         System.out.println(collect);
 
+        // print the keys whose value greater than 1
         List<String> list1 = list.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
                 .entrySet().stream()
                 .filter(e -> e.getValue() > 1)
@@ -26,7 +27,6 @@ public class Program2 {
                 .toList();
 
         System.out.println(list1);
-
     }
 
 }
