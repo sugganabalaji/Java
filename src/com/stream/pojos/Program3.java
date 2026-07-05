@@ -18,9 +18,15 @@ public class Program3 {
 
         // maximum salary employee
 
-        Employee emp1 = employees.stream().max(Comparator.comparingDouble(Employee::getSalary)).get();
+        Employee high = employees.stream().max(Comparator.comparingDouble(Employee::getSalary)).get();
 
-        System.out.println(emp1);
+        System.out.println(high);
+
+        //min salary employee
+
+        Employee low = employees.stream().min(Comparator.comparingDouble(Employee::getSalary)).get();
+
+        System.out.println(low);
 
     }
 
