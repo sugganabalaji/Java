@@ -4,8 +4,6 @@ import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.DoubleSummaryStatistics;
 import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
 
 public class Program9 {
 
@@ -21,7 +19,7 @@ public class Program9 {
         // total sum and average salary
         DoubleSummaryStatistics summaryStatistics = employees.stream()
                 .map(n -> n.getSalary())
-                .mapToDouble(n->n)
+                .mapToDouble(n -> n)
                 .summaryStatistics();
 
         System.out.println(summaryStatistics);
