@@ -35,6 +35,12 @@ public class IPredicate {
         };
 
         System.out.println(bp.test("A", "A")); // A==A ? //true
+
+        Predicate<String> not = Predicate.not(p);
+        String s = "ABC";
+        System.out.println(not.test(s));
+        System.out.println(Predicate.isEqual("ABC").test(s));
+
     }
 
 }
