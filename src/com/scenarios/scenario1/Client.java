@@ -1,4 +1,4 @@
-package com.stream.pojos;
+package com.scenarios.scenario1;
 
 import java.util.List;
 
